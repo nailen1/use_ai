@@ -7,15 +7,7 @@ import os
 
 from dotenv import load_dotenv
 
-DEFAULT_MODEL_NAME = "gpt-4o-mini"
-
-AVAILABLE_MODELS = {
-    "gpt-4o-mini": "gpt-4o-mini",
-    "gpt-4o": "gpt-4o",
-    "gpt-4.5-preview": "gpt-4.5-preview",
-    "o3-mini": "o3-mini",
-}
-
+DEFAULT_MODEL_NAME = "gpt-5.2"
 
 def get_openai_api_key() -> str:
     """Load the OpenAI API key from environment variables.
